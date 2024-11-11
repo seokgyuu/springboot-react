@@ -1,22 +1,17 @@
 import './App.css';
-import React, {useEffect, useState} from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React from 'react';
 import axios from 'axios';
+import HomeView from "./views/HomeView";
 
-function App() {
-	const [data,setData] = useState('')
-	
-	useEffect(()=> {
-		axios.get('/api/data')
-		.then(res => setData(res.data))
-		.catch(err => console.log(err))
-	}, []);
-	
-	return(
-		<div>
-		 	받아온 값: {data}
-		</div>
-	);
-	  
-}
+const App = () => {
+    return (
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<HomeView />} />
+        </Routes>
+    </BrowserRouter>
+    );
+};
 
 export default App;
