@@ -40,7 +40,6 @@ const Port1 = () => {
 			  		* 장르별 필터  <br></br>
 			  		* 공지사항 
 
-
 	        </p>
 	</div>
 	<h1 className="port-title">
@@ -100,6 +99,7 @@ const Port1 = () => {
 			<p className="port-text">
 			 사용자가 캐시요청을 넣었을때 관리자 창에 위 사진처럼 승인 거절 버튼으로 처리할 수 있도록 구현했습니다.		
 			</p>
+			<br></br><br></br>
 				  
 		</div>
     </div>

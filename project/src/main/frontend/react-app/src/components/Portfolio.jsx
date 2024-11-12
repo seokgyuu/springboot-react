@@ -1,18 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import gyu from "../assets/img/gyu.jpg";
+import gyu from "../assets/img/port1img.jpg";
+import gyu2 from "../assets/img/logo.jpg";
+import profile from "../assets/img/gyu.jpg";
 
 const Portfolio = () => {
 
 	const portfolioItems = [
-		{id: 1, title: "" , imgSrc: gyu , link: "/Port1"},
-		{id: 2, title: "" , imgSrc: gyu , link: "/Port2"},
+		{id: 1, title: "portfolio1" , imgSrc: gyu , link: "/Port1"},
+		{id: 2, title: "portfolio2" , imgSrc: gyu2 , link: "/Port2"},
+		{id: 3, title: "profile" , imgSrc: profile, link: "/Profile"},
 	];
 	
 	return(
 		<section id="port">
 		 <div className= "port_inner">
-		 	<h1 className="title">portfolio</h1>
 			<div className="port_grid">
 			{portfolioItems.map((item) => (
 			            <div key={item.id} className="portfolio_item">

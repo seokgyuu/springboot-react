@@ -1,18 +1,18 @@
 #header {
-  @include position-fixed; /* 상단 고정 */
+  @include position-fixed;
   z-index: 10000;
-  width: 100%; /* 화면 전체 너비 */
-  height: 60px; /* 헤더 높이 설정 */
-  background-color: rgba(255, 255, 255, 0.9); /* 반투명 배경 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+  width: 100%; 
+  height: 60px; 
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
 
   .header_inner {
-    @include flex-between; /* 로고와 네비게이션 가로 정렬 */
+    @include flex-between; 
     width: 100%;
-    max-width: 1200px; /* 최대 폭 설정 */
-    margin: 0 auto; /* 가운데 정렬 */
+    max-width: 1200px; 
+    margin: 0 auto; 
     padding: 0 20px;
 
     .header_logo {
