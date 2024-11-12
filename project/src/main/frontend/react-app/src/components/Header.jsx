@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header_logo">
           <Link to="/">gyu</Link>
         </div>
-        <nav className="header_nav" role="navigation" aria-label="메인메뉴">
+        <nav className="header_nav">
           <ul>
             <li>
               <Link to="/profile">Profile</Link>

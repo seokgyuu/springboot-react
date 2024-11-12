@@ -5,8 +5,8 @@ import gyu from "../assets/img/gyu.jpg";
 const Portfolio = () => {
 
 	const portfolioItems = [
-		{id: 1, title: "" , imgSrc: gyu , link: "/port1"},
-		{id: 2, title: "" , imgSrc: gyu , link: "/port2"},
+		{id: 1, title: "" , imgSrc: gyu , link: "/Port1"},
+		{id: 2, title: "" , imgSrc: gyu , link: "/Port2"},
 	];
 	
 	return(
