@@ -1,3 +1,5 @@
+@use "../setting/mixin";
+
 .port-description {
   padding: 100px;
   border-radius: 8px; 
@@ -25,7 +27,7 @@
   font-size: 24px;
   margin-top: 120px;
   color: #333;
-  @include flex-center; 
+  @include mixin.flex-center; 
 }
 
 .port-link {
@@ -41,7 +43,7 @@
 }
 
 .port-explain {
-  @include flex-center; 
+  @include mixin.flex-center; 
   flex-direction: column;
   margin-top: 20px;
 }

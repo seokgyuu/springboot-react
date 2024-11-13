@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-@import "setting/mixin";
-
-@import "pages/header";
-@import "pages/portfolio";
-@import "pages/port";
-@import "pages/profile";
-@import "pages/guestbook";
+@use "setting/mixin"; 
+@use "pages/header";
+@use "pages/portfolio";
+@use "pages/port";
+@use "pages/profile";
+@use "pages/guestbook";
